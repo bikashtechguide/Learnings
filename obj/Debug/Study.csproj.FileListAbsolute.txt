@@ -1,0 +1,12 @@
+C:\Users\105623\Documents\VIsual Studio Projects\Study\Study\obj\Debug\Study.csprojAssemblyReference.cache
+C:\Users\105623\Documents\VIsual Studio Projects\Study\Study\bin\Debug\Study.exe.config
+C:\Users\105623\Documents\VIsual Studio Projects\Study\Study\bin\Debug\Study.exe
+C:\Users\105623\Documents\VIsual Studio Projects\Study\Study\bin\Debug\Study.pdb
+C:\Users\105623\Documents\VIsual Studio Projects\Study\Study\obj\Debug\Study.exe
+C:\Users\105623\Documents\VIsual Studio Projects\Study\Study\obj\Debug\Study.pdb
+D:\StudyRepo\bin\Debug\Study.exe.config
+D:\StudyRepo\bin\Debug\Study.exe
+D:\StudyRepo\bin\Debug\Study.pdb
+D:\StudyRepo\obj\Debug\Study.csprojAssemblyReference.cache
+D:\StudyRepo\obj\Debug\Study.exe
+D:\StudyRepo\obj\Debug\Study.pdb
