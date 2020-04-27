@@ -12,7 +12,7 @@ namespace WebApplicationJWT.Controllers
         [HttpGet]
         public HttpResponseMessage Login(string userName, string password)
         {
-            if(userName == "admin" && password == "Password")
+            if(userName == "Admin" && password == "Password")
             {
                 return Request.CreateResponse(HttpStatusCode.OK, TokenManager.GenerateToken(userName));
             }
@@ -20,6 +20,7 @@ namespace WebApplicationJWT.Controllers
             return Request.CreateErrorResponse(HttpStatusCode.BadRequest, "Invalid userName or Password");
         }
 
+        [CustomAuthenticationFIlter]
         public HttpResponseMessage GetEmployee()
         {
             return Request.CreateResponse(HttpStatusCode.OK, "Successfull.");

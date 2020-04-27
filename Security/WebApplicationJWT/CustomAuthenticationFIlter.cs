@@ -35,7 +35,7 @@ namespace WebApplicationJWT
                     context.ErrorResult = new AuthenticationFailureResult("Invalid Authorization Schema", context.Request);
                     return;
                 }
-                if (!string.IsNullOrEmpty(authenticationHeaderValue.Parameter))
+                if (string.IsNullOrEmpty(authenticationHeaderValue.Parameter))
                 {
                     context.ErrorResult = new AuthenticationFailureResult("Missing Token", context.Request);
                     return;
