@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\StudyRepo\\Security\\WebAppDemoJWT\\MVCWebApp\\MVCWebApp.csproj": {}
+  },
+  "projects": {
+    "D:\\StudyRepo\\Security\\WebAppDemoJWT\\MVCWebApp\\MVCWebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\StudyRepo\\Security\\WebAppDemoJWT\\MVCWebApp\\MVCWebApp.csproj",
+        "projectName": "MVCWebApp",
+        "projectPath": "D:\\StudyRepo\\Security\\WebAppDemoJWT\\MVCWebApp\\MVCWebApp.csproj",
+        "packagesPath": "C:\\Users\\105623\\.nuget\\packages\\",
+        "outputPath": "D:\\StudyRepo\\Security\\WebAppDemoJWT\\MVCWebApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\105623\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\105623\\Source\\Repos\\ExtranetV2\\packages": {},
+          "https://nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.1.7, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
